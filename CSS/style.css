@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  padding-right: 70px;
+}
+
+.menu-button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 28px;
+  padding: 0;
+  height: 17px;
+  width: 20px;
+}
+
+.menu-line {
+  background: #1f2022;
+  border-radius: 20px;
+  display: block;
+  height: 3px;
+  width: 20px;
+}
+
+.logo {
+  margin-right: 59px;
+}
+
+.input-group {
+  align-items: center;
+  background: #ebebeb;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 17px;
+  max-width: 830px;
+  width: 50%;
+}
+
+.input-search {
+  background-color: transparent;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.button-search {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  height: 19px;
+  width: 19px;
+}
+
+.icon-search {
+  fill: #000;
+}
+
+.icons {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+}
+
+.icons-link {
+  text-decoration: none;
+  opacity: 0.24;
+}
+
+.icons-link:hover {
+  opacity: 0.7;
+}
+
+.icons-link:not(last-child) {
+  margin-right: 50px;
+}
+
+.user {
+  margin-left: 45px;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
