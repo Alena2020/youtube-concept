@@ -3,12 +3,15 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header {
   align-items: center;
   display: flex;
+  margin-bottom: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 32px;
@@ -58,6 +61,7 @@ body {
   padding-bottom: 12px;
   padding-left: 23px;
   padding-right: 23px;
+  width: 100%;
 }
 
 .button-search {
@@ -94,10 +98,62 @@ body {
 
 .user {
   margin-left: 45px;
+  height: 40px;
+  width: 40px;
 }
 
 .user-avatar {
   border-radius: 50%;
   height: 40px;
   width: 40px;
+}
+
+.sidebar {
+  padding-left: 32px;
+}
+
+.nav-menu {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-bottom: 28px;
+}
+
+.nav-link {
+  align-items: center;
+  display: flex;
+  color: #898989;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+.nav-link:hover .icon {
+  fill: #ff0000;
+}
+
+.nav-item .icon {
+  fill: #898989;
+}
+
+.nav-text {
+  margin-left: 13px;
+}
+
+.nav-image {
+  height: 26px;
+  width: 26px;
+}
+
+.nav-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  margin-bottom: 30px;
 }
