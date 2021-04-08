@@ -6,3 +6,4 @@
 #### - CSS 
 #### - Normalize CSS
 #### - SVG sprites
+#### - Swiper Slider JS
