@@ -8,8 +8,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="CSS/style.css">
-
+</head>
 <body>
   <header class="header">
     <button class="menu-button">
@@ -196,11 +197,417 @@
               <span class="nav-text">Setting</span>
             </a>      
           </li>
-        </ul>
-      
+        </ul>      
     </aside>
+    <main class="content">
+      <div class="channal">
+        <a href="#" class="channal-title">
+          <img src="img/avatar.png" alt="Gussie Singleton" class="channal-avatar">
+          <span class="channal-text">Gussie Singleton</span>
+        </a> 
+
+        <div class="slider-buttons">
+          <!-- Стрелки слайдера -->
+          <div class="channal-button channal-button-prev">
+            <svg class="icon icon-left" width="28" height="28">
+                <use xlink:href="img/icons.svg#Left"></use>
+              </svg>
+          </div>
+          <div class="channal-button channal-button-next">
+            <svg class="icon icon-right" width="28" height="28">
+                <use xlink:href="img/icons.svg#Right"></use>
+              </svg>
+          </div>
+        </div>
+        <!-- /.slider-buttons -->
+
+        
+
+        <!-- Слайдер -->
+        <div class="swiper-container channal-slider">
+          <!-- Обертка слайдов -->
+          <div class="swiper-wrapper">
+            <!-- Слайды -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover.png" alt="A Brief History Of Creation" class="thumbnail">
+                  <span class="video-duration">4:15</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">A Brief History Of Creation</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">80k views</span>
+                    <span class="video-date">3 days ago</span>
+                  </span>
+                  <span class="video-channal">Gussie Singleton</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover1.png" alt="Selecting The Right Hotel" class="thumbnail">
+                  <span class="video-duration">8:00</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Selecting The Right Hotel</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">123k views</span>
+                    <span class="video-date">1 months ago</span>
+                  </span>
+                  <span class="video-channal">Gussie Singleton</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover2.png" alt="Asteroids" class="thumbnail">
+                  <span class="video-duration">5:32</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Asteroids</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">43k views</span>
+                    <span class="video-date">12 days ago</span>
+                  </span>
+                  <span class="video-channal">Gussie Singleton</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover3.png" alt="Telescopes 101" class="thumbnail">
+                  <span class="video-duration">6:40</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Telescopes 101</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">11k views </span>
+                    <span class="video-date">6 months ago</span>
+                  </span>
+                  <span class="video-channal">Gussie Singleton</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover4.png" alt="Medical Care Is Just" class="thumbnail">
+                  <span class="video-duration">1:45</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Medical Care Is Just</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">18k views</span>
+                    <span class="video-date">2 days ago</span>
+                  </span>
+                  <span class="video-channal">Gussie Singleton</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover5.png" alt="Moon Gazing" class="thumbnail">
+                  <span class="video-duration">2:15</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Moon Gazing</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">67k views</span>
+                    <span class="video-date">4 months ago</span>
+                  </span>
+                  <span class="video-channal">Gussie Singleton</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div> 
+          <!-- ./swiper-slide -->         
+          </div>
+
+        </div>
+        <!-- ./swiper-container -->
+      </div>
+      <!-- /.channal -->
+      <div class="channal">
+        <a href="#" class="channal-title">          
+          <span class="channal-text-recommended">Recommended</span>
+        </a> 
+
+        <div class="slider-buttons">
+          <!-- Стрелки слайдера -->
+          <div class="channal-button channal-recommended-button-prev">
+            <svg class="icon icon-left" width="28" height="28">
+                <use xlink:href="img/icons.svg#Left"></use>
+              </svg>
+          </div>
+          <div class="channal-button channal-recommended-button-next">
+            <svg class="icon icon-right" width="28" height="28">
+                <use xlink:href="img/icons.svg#Right"></use>
+              </svg>
+          </div>
+        </div>
+        <!-- /.slider-buttons -->
+
+        
+
+        <!-- Слайдер -->
+        <div class="swiper-container channal-slider-recommended">
+          <!-- Обертка слайдов -->
+          <div class="swiper-wrapper">
+            <!-- Слайды -->            
+            <div class="swiper-slide">
+              <div class="video-card-recommended">
+                <div class="video-thumb-recommended">
+                  <img src="img/Cover16.png" alt="Leah Singleton" class="thumbnail-recommended">
+                  <span class="video-duration">3:40</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Leah Singleton</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">2k views </span>
+                    <span class="video-date">5 months ago</span>
+                  </span>
+                  <span class="video-channal">Leah Singleton</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card-recommended -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card-recommended">
+                <div class="video-thumb-recommended">
+                  <img src="img/Cover15.png" alt="Edward Osborne" class="thumbnail-recommended">
+                  <span class="video-duration">2:12</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Edward Osborne</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">12k views</span>
+                    <span class="video-date">9 days ago</span>
+                  </span>
+                  <span class="video-channal">Edward Osborne</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card-recommended -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card-recommended">
+                <div class="video-thumb-recommended">
+                  <img src="img/Cover14.png" alt="Moon Music" class="thumbnail-recommended">
+                  <span class="video-duration">2:55</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Moon Music</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">777k views</span>
+                    <span class="video-date">11 months ago</span>
+                  </span>
+                  <span class="video-channal">Emma Hanson</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card-recommended -->
+            </div> 
+          <!-- ./swiper-slide -->         
+          </div>
+
+        </div>
+        <!-- ./swiper-container -->
+      </div>
+      <!-- /.channal -->
+      <div class="channal">
+        <a href="#" class="channal-title">
+          <img src="img/Food.png" alt="Food & Drink" class="channal-avatar">
+          <span class="channal-text">Food & Drink</span>
+          <span class="channel-info">Recommended channel for you</span>
+          <button class="channel-button">Subscribe 2.3m</button>
+        </a>       
+
+        <div class="slider-buttons">
+          <!-- Стрелки слайдера -->
+          <div class="channal-button channal-food-button-prev">
+            <svg class="icon icon-left" width="28" height="28">
+                <use xlink:href="img/icons.svg#Left"></use>
+              </svg>
+          </div>
+          <div class="channal-button channal-food-button-next">
+            <svg class="icon icon-right" width="28" height="28">
+                <use xlink:href="img/icons.svg#Right"></use>
+              </svg>
+          </div>
+        </div>
+        <!-- /.slider-buttons -->
+
+        
+
+        <!-- Слайдер -->
+        <div class="swiper-container channal-slider-food">
+          <!-- Обертка слайдов -->
+          <div class="swiper-wrapper">
+            <!-- Слайды -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover7.png" alt="Ice cream" class="thumbnail">
+                  <span class="video-duration">7:36</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Ice cream</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">240k views</span>
+                    <span class="video-date">4 months ago</span>
+                  </span>
+                  <span class="video-channal">Food & Drink</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover8.png" alt="Sweet cherry" class="thumbnail">
+                  <span class="video-duration">2:19</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Sweet cherry</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">13k views</span>
+                    <span class="video-date">5 months ago</span>
+                  </span>
+                  <span class="video-channal">Food & Drink</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover9.png" alt="Pasta" class="thumbnail">
+                  <span class="video-duration">9:05</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Pasta</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">1k views</span>
+                    <span class="video-date">11 months ago</span>
+                  </span>
+                  <span class="video-channal">Food & Drink</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover10.png" alt="tangerine" class="thumbnail">
+                  <span class="video-duration">3:40</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Tangerine</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">45k views</span>
+                    <span class="video-date">2 months ago</span>
+                  </span>
+                  <span class="video-channal">Food & Drink</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover12.png" alt="Donuts" class="thumbnail">
+                  <span class="video-duration">1:56</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Donuts</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">86k views</span>
+                    <span class="video-date">7 days ago</span>
+                  </span>
+                  <span class="video-channal">Food & Drink</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div>
+            <!-- ./swiper-slide -->
+            <div class="swiper-slide">
+              <div class="video-card">
+                <div class="video-thumb">
+                  <img src="img/Cover13.png" alt="Watermelon" class="thumbnail">
+                  <span class="video-duration">4:15</span>
+                </div>
+                <!-- /.video-thumb -->
+                <h3 class="video-title">Watermelon</h3>
+                <div class="video-info">
+                  <span class="video-counter">
+                    <span class="video-views">123k views </span>
+                    <span class="video-date">4 months ago</span>
+                  </span>
+                  <span class="video-channal">Food & Drink</span>
+                </div>
+                <!-- /.video-info -->
+              </div>
+              <!-- /.video-card -->
+            </div> 
+          <!-- ./swiper-slide -->         
+          </div>
+
+        </div>
+        <!-- ./swiper-container -->
+      </div>
+      <!-- /.channal -->
+      
+    </main>
   </div>
   <!-- /.container -->
-  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>  
 </body>
 </html>
