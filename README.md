@@ -1,4 +1,4 @@
-# Youtube-concept - yчебный проект Glo Academy 
+# Youtube-concept - Glo Academy project
 
 ## Technologies:
 #### - HTML
