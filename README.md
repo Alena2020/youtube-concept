@@ -1,6 +1,6 @@
 # Youtube-concept - yчебный проект Glo Academy 
 
-## Технологии:
+## Technologies:
 #### - HTML
 #### - CSS 
 #### - Normalize CSS
