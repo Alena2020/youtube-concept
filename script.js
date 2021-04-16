@@ -84,11 +84,11 @@ searchBtn.addEventListener('click', () => {
   mobileSearch.classList.toggle('is-open');
 });
 
-if (document.documentElement.scrollWidth <= 640) {
+/*if (document.documentElement.scrollWidth <= 640) {
   swiper1.destroy();
   swiper2.destroy();
   swiper3.destroy();
-}
+}*/
 
 function toggleTheme(theme) {
     const body = document.body;
