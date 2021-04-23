@@ -343,19 +343,11 @@ body.dark {
 }
 
 @media (max-width: 640px) {
-  .swiper-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-  .swiper-slide {
-    margin-bottom: 40px;
-  }
-  .video-thumb,
-  .video-thumb-recommended {
-    height: 300px;
-  }
-  .slider-buttons {
-    display: none;
+  .channel-button,
+  .button-theme {
+    font-size: 10px;
+    height: 30px;
+    width: 80px;
   }
   .mobile-search {
     display: block;
